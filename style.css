@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+header img {
+  width: 10%;
+  margin: 1% 5%;
+}
+header div {
+  margin: 0% 5%;
+  width: 14vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .vermelho {
+  background-color: #DF0712;
+  width: 7vw;
+  padding: 5% 0%;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5%;
+}
+header .preto {
+  background-color: #181818;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 5vw;
+  padding: 4% 0%;
+  border: solid 1px #FFFCFC;
+  border-radius: 10%;
+}
+
+body {
+  background-color: #181818;
+}
+
+.primeiraSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0% 10%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.primeiraSessao div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.primeiraSessao h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.primeiraSessao h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+.primeiraSessao img {
+  width: 5%;
+}
+
+.segundaSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+.segundaSessao div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.segundaSessao h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #FFFFFF;
+  width: 15vw;
+  margin-top: 3%;
+}
+.segundaSessao p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  width: 19vw;
+  color: #FFFFFF;
+  margin-top: 3%;
+}
+.segundaSessao img {
+  width: 70%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4%;
+  background-color: black;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 5% 10%;
+}/*# sourceMappingURL=style.css.map */
